@@ -53,15 +53,15 @@ radarchart(df_radar_1,
            caxislabels = c(0, 25, 50, 75, 100),
            vlabels = colnames(df_radar_1),
            axislabcol = "grey",
-           vlcex = 1,
+           vlcex = 2,
            pcol = c("#04cae0", "#e004d1"), # Customizando o poligono
            pfcol = scales::alpha(c("#04cae0", "#e004d1"), 0.1),
            plwd = 2,
            plty = 2,
            cglcol = "grey", # Customizando a grid
            cglwd = 0.8,
-           cglty = 1,
-           title = "Patient I"
+           cglty = 1
+           # title = "Patient I"
 )
 
 # Patient 2 -----------------------------------------------------------------------------------
@@ -97,15 +97,15 @@ radarchart(df_radar_2,
            caxislabels = c(0, 25, 50, 75, 100),
            vlabels = colnames(df_radar_2),
            axislabcol = "grey",
-           vlcex = 1,
+           vlcex = 2,
            pcol = c("#04cae0", "#e004d1"), # Customizando o poligono
            pfcol = scales::alpha(c("#04cae0", "#e004d1"), 0.1),
            plwd = 2,
            plty = 2,
            cglcol = "grey", # Customizando a grid
            cglwd = 0.8,
-           cglty = 1,
-           title = "Patient II"
+           cglty = 1
+           # title = "Patient II"
 )
 
 
@@ -142,15 +142,15 @@ radarchart(df_radar_3,
             caxislabels = c(0, 25, 50, 75, 100),
             vlabels = colnames(df_radar_3),
             axislabcol = "grey",
-            vlcex = 1,
+            vlcex = 2,
             pcol = c("#04cae0", "#e004d1"), # Customizando o poligono
             pfcol = scales::alpha(c("#04cae0", "#e004d1"), 0.1),
             plwd = 2,
             plty = 2,
             cglcol = "grey", # Customizando a grid
             cglwd = 0.8,
-            cglty = 1,
-            title = "Patient III"
+            cglty = 1
+            # title = "Patient III"
 )
 
 # Patient 4 -----------------------------------------------------------------------------------
@@ -186,15 +186,15 @@ radarchart(df_radar_4,
            caxislabels = c(0, 25, 50, 75, 100),
            vlabels = colnames(df_radar_3),
            axislabcol = "grey",
-           vlcex = 1,
+           vlcex = 2,
            pcol = c("#04cae0", "#e004d1"), # Customizando o poligono
            pfcol = scales::alpha(c("#04cae0", "#e004d1"), 0.1),
            plwd = 2,
            plty = 2,
            cglcol = "grey", # Customizando a grid
            cglwd = 0.8,
-           cglty = 1,
-           title = "Patient IV"
+           cglty = 1
+           # title = "Patient IV"
 )
 
 # Patient 5 -----------------------------------------------------------------------------------
@@ -230,15 +230,15 @@ radarchart(df_radar_5,
            caxislabels = c(0, 25, 50, 75, 100),
            vlabels = colnames(df_radar_3),
            axislabcol = "grey",
-           vlcex = 1,
+           vlcex = 2,
            pcol = c("#04cae0", "#e004d1"), # Customizando o poligono
            pfcol = scales::alpha(c("#04cae0", "#e004d1"), 0.1),
            plwd = 2,
            plty = 2,
            cglcol = "grey", # Customizando a grid
            cglwd = 0.8,
-           cglty = 1,
-           title = "Patient V"
+           cglty = 1
+           # title = "Patient V"
 )
 
 # Patient 6 -----------------------------------------------------------------------------------
@@ -274,15 +274,15 @@ radarchart(df_radar_6,
            caxislabels = c(0, 25, 50, 75, 100),
            vlabels = colnames(df_radar_3),
            axislabcol = "grey",
-           vlcex = 1,
+           vlcex = 2,
            pcol = c("#04cae0", "#e004d1"), # Customizando o poligono
            pfcol = scales::alpha(c("#04cae0", "#e004d1"), 0.1),
            plwd = 2,
            plty = 2,
            cglcol = "grey", # Customizando a grid
            cglwd = 0.8,
-           cglty = 1,
-           title = "Patient VI"
+           cglty = 1
+           # title = "Patient VI"
 )
 
 
