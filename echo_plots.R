@@ -16,7 +16,7 @@ head(df,n = 12)
 
 figura <- function(base, variavel){
   base |>
-    ggplot(aes(x = tempo, y = variavel, group = id, color = group)) +
+    ggplot(aes(x = forcats::fct_reorder(tempo, desc(tempo)) , y = variavel, group = id, color = group)) +
     geom_point() +
     geom_line() +
     facet_grid(~group) +
