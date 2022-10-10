@@ -58,10 +58,10 @@ TAPSE <-
   figura(df, df$TAPSE_z) +
   labs(y = bquote("TAPSE(z-socre)"))
 
-# "OMNI_LV_mass_calculator"
-OMNI_LV_mass_calculator <-
-  figura(df, df$OMNI_LV_mass_calculator) +
-  labs(y = bquote("OMNI LV mass calculator (z-socre)"))
+# "LV mass index score z"
+LV_mass_index_score_z <-
+  figura(df, df$`LV_mass_z score`) +
+  labs(y = bquote("LV mass index (z-socre)"))
 
 # "LVEF%"
 LVEF <-
@@ -75,7 +75,7 @@ GLS <-
 
 # layout --------------------------------------------------------------------------------------
 
-(bsa | LVEDd | LVESd) / (E_e | E_A | TAPSE) / (OMNI_LV_mass_calculator|LVEF|GLS)
+(bsa | LVEDd | LVESd) / (E_e | E_A | TAPSE) / (LV_mass_index_score_z|LVEF|GLS)
 
 
 
