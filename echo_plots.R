@@ -8,7 +8,7 @@ library(patchwork)
 # carregando a base ---------------------------------------------------------------------------
 
 df <- readxl::read_excel(path = "echo_scores.xlsx") |>
-  mutate(group = if_else(group == "Ex", true = "Exercised group",false = "Non-exercise group"))
+  mutate(group = if_else(group == "Ex", true = "Exercised group",false = "Non-exercised group"))
 
 head(df,n = 12)
 
